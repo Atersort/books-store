@@ -1,0 +1,15 @@
+{
+  "name": "books-store",
+  "version": "1.0.0",
+  "description": "Пэт проект магазин книг",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^3.0.3",
+    "gulp": "^5.0.0"
+  }
+}
