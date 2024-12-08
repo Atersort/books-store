@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Philosopher";
+  font-weight: 1.5;
+  font-size: 16px;
+}
+
+.header-wrapper {
+  max-width: 1240px;
+  width: 100%;
+  margin: 24px auto;
+  display: flex;
+  flex-direction: column;
+}
+.header-wrapper .header-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0;
+}
+.header-wrapper .header-top .header-top__logo-position {
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=header.css.map */

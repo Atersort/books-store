@@ -1,1 +1,5 @@
-@use "header";
+@use "components/header";
+@use "base/variables";
+@use "base/typography";
+@use "base/reset";
+@use "components/buttons";

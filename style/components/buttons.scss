@@ -1,0 +1,57 @@
+@import "../base/variables.scss";
+
+.catalog__button {
+  padding: 12px 16px;
+  border: 0.2px solid $primary-color;
+  border-radius: 5px;
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  .catalog__button_text {
+    margin-right: 11px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .catalog__button-elem {
+    display: inline-flex;
+    flex-direction: column;
+    width: 15px;
+    gap: 4px;
+
+    .catalog__button-elem-item {
+      width: 15px;
+      height: 0.5px;
+      border-radius: 10px;
+      background-color: $primary-color;
+      display: inline-block;
+      transition: background-color 0.4s ease;
+    }
+
+    .catalog__button-elem-item:before {
+      @extend .catalog__button-elem-item;
+      position: relative;
+      top: 50%;
+  }
+    .catalog__button-elem-item:after {
+      @extend .catalog__button-elem-item;
+    }
+  }
+}
+
+  .catalog__button:hover {
+  background-color: $primary-color;
+  color: $white-color;
+}
+
+.catalog__button-elem:hover {
+  background-color: #ffffff;
+}
+
+.catalog__button_burger-elem {
+  width: 15px;
+  color: $white-color;
+  height: 1px;
+}

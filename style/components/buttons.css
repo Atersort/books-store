@@ -1,0 +1,14 @@
+.catalog__button {
+  padding: 12px 16px;
+  border: 1px solid #290247;
+  border-radius: 5px;
+  margin-left: 124px;
+}
+
+.catalog__button_line {
+  width: 5px;
+  background-color: #290247;
+  height: 1px;
+}
+
+/*# sourceMappingURL=buttons.css.map */

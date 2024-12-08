@@ -1,0 +1,30 @@
+@import "../base/variables.scss";
+
+
+.header-wrapper {
+  max-width: 1240px;
+  width: 100%;
+  margin: 24px auto;
+  display: flex;
+  flex-direction: column;
+
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0;
+
+    .header-top__logo-position {
+      display: flex;
+      align-items: center;
+
+      .catalog__button-link {
+        text-decoration: none;
+        color: $primary-color;
+      }
+    }
+
+  }
+}
+
+
